@@ -1,0 +1,293 @@
+body {
+    background-color: #EEF2F5;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+
+    background-color: white;
+    box-shadow: 0 0 7px silver;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    /*background-color: #86BF66;*/
+}
+.container-float {
+    display: flex;
+    /*justify-content: space-between;*/
+    width: 80%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    /*background-color: #86BF66;*/
+}
+.container-float .card {
+    margin-right: 80px;
+    background-color: #e4e4e4;
+}
+
+.container img {
+    margin: 10px 0;
+}
+
+.img1 {
+    margin: 15px 0 0 230px;
+    width: 30px;
+    height: 30px;
+    background-color: #EEF2F5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .container ul li {
+    display: inline-block;
+
+
+}
+
+.navbar .container ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    position: relative;
+    margin: 5px 15px;
+
+}
+
+.navbar .container h3 {
+    margin-left: 100px;
+}
+
+.navbar .container h3 .span1 {
+    font-size: 10px;
+}
+
+.input1 {
+    margin: 20px 40px;
+    border: none;
+}
+
+.navbar ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    bottom: -22px;
+    left: 0;
+    transition: all 0.5s linear;
+}
+
+.navbar ul li a:hover::after {
+    width: 100%;
+}
+.container .col .box .span2 {
+    margin-top: 20px;
+}
+.col {
+    margin: 80px 0 0 0;
+    display: flex;
+}
+.col .box:nth-child(2) {
+    margin: 12px 24px;
+}
+button {
+    width: 80px;
+    height: 40px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+button:hover {
+    background-color: red;
+    color: white;
+}
+.card {
+    width: 29%;
+    height: 620px;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.card:hover {
+    box-shadow: 0 0 10px silver;
+}
+.card img {
+    border-radius: 10px 10px 0 0;
+    width: 113%;
+    margin: -20px;
+    margin-bottom: 5px;
+}
+.left {
+    width: 3px;
+    height: 0;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all 0.5s linear;
+}
+
+.card:hover .left {
+    height: 64.5%;
+}
+
+.right {
+    width: 3px;
+    height: 0;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s linear;
+}
+
+.card:hover .right {
+    height: 64.5%;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: -90px;
+    transition: all 0.5s linear;
+}
+.card:hover .bottom {
+    bottom: 0;
+}
+.btn1 {
+    width: 40%;
+    text-align: left;
+    margin-left: 25px;
+}
+.btn2 {
+    margin: auto 20px;
+}
+.box2 {
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.box2 p {
+    color: silver;
+    margin-bottom: -10px;
+}
+.card hr {
+    width: 350px;
+    margin-left: -20px;
+}
+.card h1 span {
+    font-size: 20px;
+    font-weight: 100;
+}
+.box3 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.box3 p {
+    color: silver;
+    margin-top: -15px;
+}
+.h1 {
+    width: 30%;
+
+}
+.h2 {
+    color: silver;
+    width: 30%;
+}
+.h3 {
+    color: #1DD1A1;
+    width: 30%;
+}
+.h4 p {
+    color: silver;
+    margin-top: -20px;
+}
+.h5 p {
+    color: silver;
+    margin-top: -20px;
+    margin-left: 22%;
+}
+.h5 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box4 {
+    width: 50%;
+}
+.span2 {
+    font-size: 10px;
+}
+.img2 {
+    margin-top: 5px;
+    margin-left: 450px;
+}
+.number {
+    margin-left: -100px;
+    /*background-color: silver;*/
+}
+.img3 {
+    margin-top: -10px;
+    margin-left: 70px;
+}
+.img3 img {
+    margin: 0 5px;
+}
+.span3 {
+    color: silver;
+    margin-top: -10px;
+    margin-left: 55px;
+}
+.img4 {
+    margin: 10px 0;
+}
+.footer {
+    background-color: white;
+    box-shadow: 0 0 7px silver;
+}
+.footer .container ul li {
+    display: inline-block;
+
+
+}
+
+.footer .container ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    position: relative;
+    margin: 5px 15px;
+
+}
+
+.footer .container h3 {
+    margin-left: 100px;
+}
+
+.footer .container h3 .span1 {
+    font-size: 10px;
+}
